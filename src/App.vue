@@ -1,6 +1,6 @@
 <template>
   <div id="topbar">
-    <p>racecoursehospital@gmail.com  &nbsp;  &nbsp;  <i class="fa-solid fa-phone"> &nbsp; +254726773876</i></p>
+    <p><i class="fa-solid fa-envelope"></i> &nbsp; <a href="mailto:racecoursehospital@gmail.com">racecoursehospital@gmail.com</a>  &nbsp;  &nbsp;  <i class="fa-solid fa-phone"> &nbsp; +254726773876</i></p>
   </div>
   <nav>
     <img :src="image" />
@@ -33,14 +33,18 @@ export default {
   color: #2c3e50;
 }
 #topbar{
-    background: #003;
-    height: 15px;
-    font-size: 15px;
-    padding: 10px 0;
-    color: white;
-    display: flex;
-    align-items: center;
-    padding-left:40px ;
+  background: #003;
+  height: 15px;
+  font-size: 15px;
+  padding: 10px 0;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left:40px ;
+}
+#topbar p a{
+  text-decoration: none;
+  color: #f2f2f2;
 }
 
 *{
