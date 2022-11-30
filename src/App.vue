@@ -12,11 +12,16 @@
     <router-link to="/contact">Contact</router-link>
   </nav>
   <router-view/>
+  <Footer />
 </template>
 
 <script>
+import Footer from './views/footer.vue'
 export default {
   name: 'myapp',
+  components:{
+    Footer
+  },
   data(){
     return{
       image:  "./img/racecourse.png",
@@ -70,15 +75,5 @@ nav img{
   padding-right: 600px;
 }
 
-@media only screen and (max-width:500px){
-  .nav{
-    display:none;
-    position: absolute;
-    background-color:teal;
-    right: 0;
-    left: 0;
-    text-align: center;
-    padding: 16px 0;
-  }
-}
+
 </style>
