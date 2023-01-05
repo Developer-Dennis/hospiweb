@@ -19,8 +19,8 @@
   </div>
 
 
-  <section  style=" background: #1977cc;">
-    <div class="oursection" style=" background: #1977cc;">
+  <section >
+    <div class="oursection">
       <div class="whyus">
         <h2>Why Choose Racecouse Hospital?</h2>
         <p>We are ready to provide to you the best of the<br> medical care that should assist you in the daily <br> life. We provide a variety of services that cut  <br> across various departments to give you the <br> best.</p>
@@ -111,7 +111,8 @@ section{
   margin-right: 100px;
 }
 section h2{
-  font-size:26px;
+  font-size:24px;
+
 }
 section p{
   font-size:18px;
