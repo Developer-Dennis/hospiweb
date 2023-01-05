@@ -9,7 +9,7 @@
     <img :src="image" />
     <router-link to="/">Home</router-link> 
     <router-link to="/about">About</router-link>
-    <router-link to="/">Services</router-link>
+    <router-link to="/">Service</router-link>
     <router-link to="/department">Department</router-link>
     <router-link to="/work-with-us">Work With Us</router-link>
     <router-link to="/contact">Contact</router-link>
