@@ -21,8 +21,8 @@
   </div>
   <div class="footermain">
       <p>Copyright © 2022 <a href="#">Dennis Kemboi</a> All rights reserved</p>
-      <a href=""><i class="fa-brands fa-twitter"></i></a>
-      <a href=""><i class="fa-brands fa-facebook"></i></a>
+      <i class="fa-brands fa-twitter"></i>
+     <i class="fa-brands fa-facebook"></i>
       <i class="fa-brands fa-square-instagram"></i>
       <i class="fa-brands fa-skype"></i>
       <i class="fa-brands fa-linkedin"></i>
@@ -63,5 +63,12 @@ export default {
         padding-top: 20px;
         display: flex;
         justify-content: center;
+        padding-right: 10px;
+    }
+    .footermain i{
+        padding-left: 10px;
+        font-size: 35px;
+        float: left;
+        width: 50px;
     }
 </style>
