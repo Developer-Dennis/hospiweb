@@ -1,12 +1,15 @@
 <template>
   <div id="topbar">
     <p><i class="fa-solid fa-envelope"></i> &nbsp; <a href="mailto:racecoursehospital@gmail.com">racecoursehospital@gmail.com</a>  &nbsp;  &nbsp;  <i class="fa-solid fa-phone"> &nbsp; +254726773876</i></p>
+  <div class="socials">
+    <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-linkedin"></i>
+  </div>
   </div>
   <nav>
     <img :src="image" />
     <router-link to="/">Home</router-link> 
     <router-link to="/about">About</router-link>
-    <router-link to="/services">Services</router-link>
+    <router-link to="/">Services</router-link>
     <router-link to="/department">Department</router-link>
     <router-link to="/work-with-us">Work With Us</router-link>
     <router-link to="/contact">Contact</router-link>
@@ -37,6 +40,10 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+*{
+  margin: 0;
+  padding: 0;
+}
 #topbar{
   background: #003;
   height: 15px;
@@ -51,11 +58,12 @@ export default {
   text-decoration: none;
   color: #f2f2f2;
 }
-
-*{
-  margin: 0;
-  padding: 0;
+.socials{
+  display: flex;
+  justify-content: space-between;
 }
+
+
 nav {
   display: flex;
   background:#f2f2f2;
