@@ -8,8 +8,7 @@
     &nbsp;
     <p>Phone: +254-726-773876</p>
     <p>Email: racecoursehospital@gmail.com</p>
-  </div>
-  <div class="links">
+    <div class="links">
     <h1>Useful Links</h1>
     <ul>
         <a href="">Home</a>
@@ -19,6 +18,8 @@
        <a href="">Privacy Policy</a>
     </ul>
   </div>
+  </div>
+  
   <div class="footermain">
       <p>Copyright © 2022 <a href="#">Dennis Kemboi</a> All rights reserved</p>
       <i class="fa-brands fa-twitter"></i>
@@ -42,7 +43,11 @@ export default {
         text-align:left;
         padding-left: 10px;
     }
+    .footer h1{
+        text-align: left;
+    }
     .links{
+        text-align: center;
         padding-top: 0px;
     }
     .links ul a{
