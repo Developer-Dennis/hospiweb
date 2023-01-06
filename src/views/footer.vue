@@ -8,8 +8,8 @@
     &nbsp;
     <p>Phone: +254-726-773876</p>
     <p>Email: racecoursehospital@gmail.com</p>
-    <div class="links">
-    <h1>Useful Links</h1>
+  <div class="links">
+    <h1 style="text-align:center;">Useful Links</h1>
     <ul>
         <a href="">Home</a>
         <a href="">About Us</a>
@@ -19,7 +19,6 @@
     </ul>
   </div>
   </div>
-  
   <div class="footermain">
       <p>Copyright © 2022 <a href="#">Dennis Kemboi</a> All rights reserved</p>
       <i class="fa-brands fa-twitter"></i>
@@ -39,7 +38,7 @@ export default {
 
 <style>
     .footer{
-        padding-top: 150px;
+        padding-top: 10px;
         text-align:left;
         padding-left: 10px;
     }
@@ -49,14 +48,17 @@ export default {
     .links{
         text-align: center;
         padding-top: 0px;
+        padding-bottom: 200px;
+    }
+    .links ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
     .links ul a{
-        display: table-cell;
-        height: 20px;
-        list-style-type: none;
-        margin: 8px;
-        vertical-align: middle;
         text-decoration: none;
+        padding: 10px;
+        font-size: 14px;
     }
     .footermain{
         width: 100%;
@@ -69,6 +71,7 @@ export default {
         display: flex;
         justify-content: center;
         padding-right: 10px;
+        padding-top: 40px;
     }
     .footermain i{
         padding-left: 10px;
