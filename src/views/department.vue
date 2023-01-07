@@ -1,87 +1,83 @@
 <template>
   <div class="departments">
-    <h1>Neurology</h1>
     <img :src="neurology"  v-if='showImage' style="height:300px;"/>
-    <button @click="toggleImage">Show more..</button>
+    <button @click="toggleImage" style="text-align:left;">Neurology</button>
 
-    <h1>Cardiology</h1>
-    <img :src="cardiology"  v-if='showImage1' style="height:300px;"/>
-    <button @click="toggleImage1">Show more...</button>
+  
+    <img :src="cardiology"  v-if='showImage' style="height:300px;"/>
+    <button @click="toggleImage" style="text-align:left;">Cardiology</button>
 
-    <h1>Orthopaedic</h1>
+    <h1></h1>
     <img :src="orthopaedic"  v-if='showImage' style="height:300px;"/>
-    <button @click="toggleImage1">Show more...</button>
+    <button @click="toggleImage" style="text-align:left;">Orthopaedic</button>
 
-    <h1>pediatric</h1>
     <img :src="pediatric"  v-if='showImage' style="height:300px;"/>
-    <button @click="toggleImage">Show more...</button>
+    <button @click="toggleImage" style="text-align:left;">Pediatric</button>
 
-    <h1> Ophalmology</h1>
     <img :src=" ophalmology"  v-if='showImage' style="height:300px;"/>
-    <button @click="toggleImage">Show more...</button>
+    <button @click="toggleImage" style="text-align:left;">Ophalmology</button>
 
-    <h1>Maternal care</h1>
+  
     <img :src=" maternalcare"  v-if='showImage' style="height:300px;"/>
-    <button @click="toggleImage">Show more...</button>
+    <button @click="toggleImage"  style="text-align:left;">Maternal care</button>
 
-    <h1>Radiology</h1>
+    
     <img :src="radiology"  v-if='showImage' style="height:300px;"/>
-    <button @click="toggleImage">Show more...</button>
+    <button @click="toggleImage" style="text-align:left;">Radiology</button>
 
     
-  <h1>Dental Care</h1>
     <img :src="dental"  v-if='showImage' style="height:300px;"/>
-    <button @click="toggleImage">Show more...</button>
+    <button @click="toggleImage" style="text-align:left;" >Dental Care</button>
 
     
-  <h1>Labaratory</h1>
+  <h1></h1>
     <img :src="lab"  v-if='showImage' style="height:300px;"/>
-    <button @click="toggleImage">Show more...</button>
+    <button @click="toggleImage" style="text-align:left;">Labaratory</button>
 
 
-    <h1>Pharmacy</h1>
+    
     <img :src="pharmacy"  v-if='showImage' style="height:300px;"/>
-    <button @click="toggleImage">Show more...</button>
+    <button @click="toggleImage" style="text-align:left;">Pharmacy</button>
 
-    <h1>Oncology</h1>
+    
     <img :src="oncology"  v-if='showImage' style="height:300px;"/>
-    <button @click="toggleImage">Show more...</button>
+    <button @click="toggleImage" style="text-align:left;">Oncology</button>
 
-    <h1>Family Planning</h1>
+    
     <img :src="family"  v-if='showImage' style="height:300px;"/>
-    <button @click="toggleImage">Show more...</button>
+    <button @click="toggleImage" style="text-align:left;">Family Planning</button>
 
-    <h1>Critical Care</h1>
+    
     <img :src="icu"  v-if='showImage' style="height:300px;"/>
-    <button @click="toggleImage">Show more...</button>
+    <button @click="toggleImage" style="text-align:left;">Critical Care</button>
 
-    <h1>Ear Nose &Throat care </h1>
+    
     <img :src="ent"  v-if='showImage' style="height:300px;"/>
-    <button @click="toggleImage">Show more...</button>
+    <button @click="toggleImage" style="text-align:left;">Ear Nose &Throat care</button>
 
-    <h1>Gynaecology & Reproductive Health Care </h1>
+    
     <img :src="gynaecology"  v-if='showImage' style="height:300px;"/>
-    <button @click="toggleImage">Show more...</button>
+    <button @click="toggleImage" style="text-align:left;">Gynaecology & Reproductive Health Care </button>
 
 
-    <h1>Physiotherapy Services </h1>
+    
     <img :src="physiotherapy"  v-if='showImage' style="height:300px;"/>
-    <button @click="toggleImage">Show more...</button>
+    <button @click="toggleImage" style="text-align:left;">Physiotherapy Services </button>
 
 
-    <h1>Psychiatry Services ( Mental Health) </h1>
+    
     <img :src="Mentalhealth"  v-if='showImage' style="height:300px;"/>
-    <button @click="toggleImage">Show more...</button>
+    <button @click="toggleImage" style="text-align:left;">Psychiatry Services ( Mental Health)</button>
 
 
-    <h1>General Surgery </h1>
+    
     <img :src="generalsurgery"  v-if='showImage' style="height:300px;"/>
-    <button @click="toggleImage">Show more...</button>
+    <button @click="toggleImage"  style="text-align:left;">General Surgery</button>
 
 
-    <h1>Funeral Home servies</h1>
+    
     <img :src="departments2"  v-if='showImage' style="height:300px;"/>
-    <button @click="toggleImage">Show more...</button>
+    <button @click="toggleImage" style="text-align:left;">Funeral Home servies</button>
   </div>
 
 
