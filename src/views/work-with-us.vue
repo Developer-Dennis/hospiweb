@@ -1,7 +1,7 @@
 <template>
    <div class="container">  
       <form  id="contact" action="mailto:denkogei24@gmail.com" method="post" enctype="text/plain" >
-        <h4>Contact Us</h4>
+        <h4>Submit Resume</h4>
         <fieldset>
           <input placeholder="Full Name" name="fullname"  type="text" tabindex="1" required autofocus>
         </fieldset>
@@ -15,12 +15,15 @@
           <textarea placeholder="Type your message here...." name="message" type="text" tabindex="5" required></textarea>
         </fieldset>
         <fieldset>
-            <label for="cars">Select a Position:</label>
-            <select name="position" id="position">
+            <label for="cars">Select a Position: > </label>
+            <select name="position" id="position" required>
             <option value="doctor">Doctor</option>
             <option value="nurse">Nurse</option>
             <option value="cleaner">Cleaner</option>
             </select>
+        </fieldset>
+        <fieldset>
+            <input type="file" id="myFile" name="filename" required >
         </fieldset>
         <fieldset>
           <button  type="submit"  value="submit" id="contact-submit" data-submit="...Sending" onclick="sendEmail()">Submit</button>
