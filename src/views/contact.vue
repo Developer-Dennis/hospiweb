@@ -1,4 +1,16 @@
 <template>
+  <div class="location">
+    <h1>Location:</h1>
+    <p>P.O Box 4249 Eldoret, Kenya</p>
+    <p>( Ole Tpes Road Off Eldoret - Kapsabet Road</p>
+    <p> next to Chineese Garage )</p>
+    <h1 style="padding-top:10px;">Email:</h1>
+    <p>racecoursehospital@gmail.com</p>
+    <h1 style="padding-top:10px;">Call:</h1>
+    <p>+254 726 773 876</p>
+  </div>
+   
+ 
   <div class="container">  
       <form  id="contact" action="mailto:denkogei24@gmail.com" method="post" enctype="text/plain" >
         <h4>Contact Us</h4>
@@ -50,6 +62,26 @@ body {
   font-size: 12px;
   line-height: 30px;
 }
+
+.location{
+  float:left;
+  padding-top:150px;
+  text-align: left;
+  margin-left:30px
+}
+.location h1{
+  font-size: 28px;
+  text-align: left;
+  margin-left:30px;
+  page-break-inside: avoid;
+  break-inside: avoid-column;
+}
+.location p{
+  font-size: 18px;
+  page-break-inside: avoid;
+  break-inside: avoid-column;
+}
+
 
 .container {
   max-width: 400px;
