@@ -77,6 +77,7 @@ body {
   break-inside: avoid-column;
 }
 .location p{
+  text-align: left;
   font-size: 18px;
   page-break-inside: avoid;
   break-inside: avoid-column;
