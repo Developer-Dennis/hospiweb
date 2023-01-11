@@ -15,7 +15,7 @@
        </div>
     <div class="container">
       <h1>Inpatient Services</h1>
-      <p>Inpatient care is provided at an affordable cost with empharsis to patient comfort.</p>
+      <p>Inpatients care is provided at an affordable cost with empharsis to patient comfort.</p>
     </div>
   </div>
   <div class="card">
@@ -29,7 +29,7 @@
   </div>
   <div class="card">
     <div class="image">
-      <i class="fa-regular fa-capsules"></i>
+      <i class="fa-solid fa-prescription-bottle-pill"></i>
     </div>
     <div class="container">
       <h1>Pharmacy</h1>
@@ -57,7 +57,7 @@
 </template>
 
 <script>
-// @ is an alias to /src
+
 
 
 export default {
@@ -78,10 +78,10 @@ export default {
   .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 20%;
-  height: 300px;
+  width: 30%;
+  height: 350px;
   padding: 50px;
-  margin: 10px;
+  margin: 20px;
   display: inline-block;
 }
 .card .image{
@@ -102,10 +102,9 @@ card .container h1:hover{
   filter: saturate(0%);
 }
 
-.card:hover {
+.card .container h1 .image:hover {
   background:#1977cc;
   color:white;
-
 }
 .container {
   padding: 2px 16px;
