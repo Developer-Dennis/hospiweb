@@ -2,7 +2,7 @@
   <div id="topbar">
     <p><i class="fa-solid fa-envelope"></i> &nbsp; <a href="mailto:racecoursehospital@gmail.com">racecoursehospital@gmail.com</a>  &nbsp;  &nbsp;  <i class="fa-solid fa-phone"> &nbsp; +254726773876</i></p>
   <div class="socials">
-    <i class="fa-brands fa-twitter"></i> <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-twitter" style="padding-left: 10px;"></i> <i class="fa-brands fa-facebook"  style="padding-left: 10px;"></i> <i class="fa-brands fa-instagram"  style="padding-left: 10px;"></i> <i class="fa-brands fa-linkedin"  style="padding-left: 10px;"></i>
   </div>
   </div>
   <nav>
@@ -46,7 +46,7 @@ export default {
 }
 #topbar{
   background: #003;
-  height: 15px;
+  height: 35px;
   font-size: 15px;
   padding: 10px 0;
   color: white;
@@ -59,8 +59,9 @@ export default {
   color: #f2f2f2;
 }
 .socials{
-  position: relative;
   float: right;
+  font-size: 16px;
+  margin-left: 750px;
 }
 
 
