@@ -15,7 +15,7 @@
           <textarea placeholder="Type your message here...." name="message" type="text" tabindex="5" required></textarea>
         </fieldset>
         <fieldset>
-            <label for="cars">Select a Position: </label>
+            <label for="position">Select a Position: </label>
             <select name="position" id="position" required>
             <option value="doctor">Doctor</option>
             <option value="nurse">Nurse</option>
