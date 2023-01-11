@@ -21,11 +21,14 @@
   </div>
   <div class="footermain">
       <p>Copyright © 2022 <a href="#">Dennis Kemboi</a> All rights reserved</p>
-      <i class="fa-brands fa-twitter"></i>
-     <i class="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-square-instagram"></i>
-      <i class="fa-brands fa-skype"></i>
-      <i class="fa-brands fa-linkedin"></i>
+      <div class="socials">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-skype"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+      
   </div>
   <i class="fa-duotone fa-arrow-up-to-line"></i>
 </template>
@@ -73,10 +76,11 @@ export default {
         padding-right: 10px;
         padding-top: 40px;
     }
-    .footermain i{
+    .footermain .socials i{
         padding-left: 10px;
         font-size: 35px;
         float: left;
         width: 50px;
+       
     }
 </style>
