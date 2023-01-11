@@ -52,15 +52,15 @@ export default {
   color: white;
   display: flex;
   align-items: center;
-  padding-left:40px ;
+  padding-left:40px;
 }
 #topbar p a{
   text-decoration: none;
   color: #f2f2f2;
 }
 .socials{
-  display: flex;
-  justify-content: space-between;
+  position: relative;
+  float: right;
 }
 
 
