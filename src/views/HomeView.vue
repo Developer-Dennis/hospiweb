@@ -101,9 +101,10 @@ card .container h1:hover{
   color:white;
   filter: saturate(0%);
 }
-
+.card:hover{
+  background-color: #1977cc;
+}
 .card .container h1 .image:hover {
-  background:#1977cc;
   color:white;
 }
 .container {
