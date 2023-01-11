@@ -5,15 +5,24 @@
   <div class="about">
     <h1>About the Hospital</h1>
       <div class="diagnosis">
-      <i class="fa-solid fa-person-dots-from-line fa-3x"></i> <h2>Diagnosis</h2>
+        <div class="image">
+          <i class="fa-solid fa-person-dots-from-line fa-3x"></i>
+        </div>
+       <h2>Diagnosis</h2>
       <p>We have a team that is commited to make sure that our patients are confortable in their visit<br> to our facility by ensuring that they are treated to the correct illness by gettin the correct <br> diagnosis.</p>
     </div>
     <div class="generaltreatment">
-      <i class="fa-solid fa-hand-holding-medical fa-3x"></i> <h2>General Treatment</h2>
+      <div class="image">
+        <i class="fa-solid fa-hand-holding-medical fa-3x"></i>
+      </div>
+      <h2>General Treatment</h2>
       <p>We are commited to help in the treatment plan of the common diseases that are majourly<br> found in the sounding areas of the hospital and those in the environs of the town.</p>
     </div>
     <div class="criticalcare">
-      <i class="fa-solid fa-bed-pulse fa-3x"></i> <h2>Critical Care</h2>
+      <div class="image">
+        <i class="fa-solid fa-bed-pulse fa-3x"></i>
+      </div>
+       <h2>Critical Care</h2>
       <p>We have an Intensive Care Unit (I.C.U) for patients who are in need of the service & an able<br> team to take care of them</p>
     </div>
   </div>
@@ -62,9 +71,9 @@ h1{
   
 }
 .diagnosis i{
-    float: center;
-    margin-left: 5px;
-    margin-right:0px;
+    float: left;
+    margin-left: 0px;
+    padding-right:0px;
     color:#1977cc;
 }
 .diagnosis h2{
