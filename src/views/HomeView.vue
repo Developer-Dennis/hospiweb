@@ -88,13 +88,10 @@ export default {
   font-size:50px;
   color:#1977cc;
 }
-.card .image:hover{
-  color:white;
-}
 .card .container h1{
   color:#1977cc;
 }
-card .container h1:hover{
+.card .container h1:hover{
   color:white;
 }
 .card .container:hover{
@@ -104,7 +101,7 @@ card .container h1:hover{
 .card:hover{
   background-color: #1977cc;
 }
-.card .container h1 .image:hover {
+.card .container .image:hover {
   color:white;
 }
 .container {
