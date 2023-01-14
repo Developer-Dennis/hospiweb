@@ -54,6 +54,7 @@ export default {
         padding-bottom: 200px;
     }
     .links ul{
+        padding-top: 50px;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
