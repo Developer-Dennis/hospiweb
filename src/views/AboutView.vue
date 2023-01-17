@@ -60,7 +60,7 @@
   padding-top: 30px;
 }
 .about h2{
-  text-align: left;
+  text-align: center;
 }
 .image{
   float: left;
