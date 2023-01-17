@@ -57,7 +57,10 @@
 </script>
 <style>
 .about h1{
-  padding-top: 50px;
+  padding-top: 30px;
+}
+.about h2{
+  text-align: left;
 }
 .image{
   float: left;
