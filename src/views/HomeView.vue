@@ -101,7 +101,7 @@ export default {
 .card:hover{
   background-color: #1977cc;
 }
-.card .container .image:hover {
+.card .container .image h1 p:hover {
   color:white;
 }
 .container {
